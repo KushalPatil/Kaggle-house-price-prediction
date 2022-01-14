@@ -1,4 +1,4 @@
-### Project 2 - Ames Housing Data and Kaggle Challenge
+### Ames Housing Data and Kaggle Challenge
 ---
 In this project I examined a comprehensive housing dataset from the city of Ames in Iowa, USA ([source](https://www.kaggle.com/c/dsi-us-6-project-2-regression-challenge/overview)). Homeowners looking to increase the value of their homes often spend too much on remodeling and don't get the return on investment when selling the house. On the other hand, people looking to buy houses want to get the best house possible given a budget. The goal of this project is to address some of these concerns, specifically:
 - what features add the most value to a home, and which hurt home values the most?
@@ -7,7 +7,6 @@ In this project I examined a comprehensive housing dataset from the city of Ames
 
 To answer these questions, I fitted different linear regression models to the housing data in order to determine the features that are most influential on house price, and those that have the least effect. The performance of the models will be evaluated using the R<sup>2</sup> metric, which is a measure of how much the model is able to explain the variance in the dataset.
 
-Due to the scale of this project, it is split into three Jupyter notebooks: EDA and data cleaning, preprocessing and feature engineering, and model tuning and insights (along with an appendix showing some additional model results where I attempted automated feature selection with the [`featuretools` library](https://github.com/Featuretools/featuretools)).
 
 ### Summary of Findings & Recommendations
 ---
